@@ -1,0 +1,80 @@
+/* Container centralizado com borda, padding e alinhamento */
+.container {
+    width: 320px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 2px solid goldenrod;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(218, 165, 32, 0.3);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Imagem do tanque com espaçamento e dimensão */
+.img-tanque {
+    width: 200px;
+    margin: 20px auto 0 auto;
+    display: block;
+    padding: 10px;
+}
+
+/* Estilo para título */
+h2 {
+    color: #159b38;
+    margin-bottom: 20px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+}
+
+/* Inputs do tipo number estilizados */
+input[type="number"] {
+    width: 100%;
+    padding: 10px 12px;
+    margin-bottom: 15px;
+    border: 1.5px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+
+/* Mudar borda quando o input estiver focado */
+input[type="number"]:focus {
+    border-color: #159b38;
+    outline: none;
+}
+
+/* Botões calcular e limpar */
+input[type="button"],
+input[type="reset"] {
+    width: 48%;
+    padding: 12px 0;
+    margin: 10px 1% 0 1%;
+    border: none;
+    border-radius: 8px;
+    background-color: #fbde00;
+    color: #333;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Hover nos botões */
+input[type="button"]:hover,
+input[type="reset"]:hover {
+    background-color: #50ff7f;
+    color: #004d00;
+}
+
+/* Parágrafo de resultado */
+#mensagem {
+    margin-top: 25px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #159b38;
+    min-height: 1.4em; /* mantém espaço quando vazio */
+}
+
+/* Label estilizado, cas*
